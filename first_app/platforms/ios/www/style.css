@@ -1,0 +1,163 @@
+        /* CSS For Navbar */
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Segoe UI';
+        }
+        header {
+            position: sticky;
+            margin-bottom: 20px;
+        }
+
+        .nav {
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.827);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        img {
+            padding-top: 10px;
+        }
+
+        .item-1 {
+            display: flex;
+            /* flex-grow: 3; */
+            position: relative;
+            right: 200px;
+            align-self: flex-start;
+        }
+
+        .bold-text {
+            padding: 30px 20px;
+            font-weight: bold;
+            color: black;
+            font-size: 40px;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            position: relative;
+            left: 300px;
+            list-style-type: none;
+            padding: 35px 30px;
+            font-size: 23px
+        }
+
+        li:hover {
+            cursor: pointer;
+            color: rgb(23, 125, 242);
+        }
+
+        /* CSS for  Download Options  */
+        .container {
+            display: grid;
+            grid-template-columns: 400px 400px 400px;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+            column-gap: 44px;
+        }
+
+        .dabba {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 350px;
+            background-color: rgb(245, 240, 240);
+        }
+
+        .bold {
+            position: relative;
+            bottom: 20px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .blue,
+        .green {
+            /* width: max-content; */
+            font-weight: bold;
+            padding: 10px 10px;
+            margin-right: 10px;
+            border-radius: 7px;
+            color: white;
+            border: none;
+        }
+
+        .blue {
+            background-color: #00b6d1;
+        }
+
+        .green {
+            background-color: #5cb85c;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn-grp {
+            position: relative;
+            top: 18px;
+            left: 10px;
+        }
+
+        /* CSS For Hero Content */
+        .hero{
+            height: 500px;
+            padding-top: 100px;
+        }
+        .text-line{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .normi-text{
+            font-size: 50px;
+            padding-right: 15px;
+        }
+        .bigTxt{
+            padding-right: 15px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .txtcol{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .txtcol p{
+            font-size: 30px;
+        }
+        
+        .multiDown{
+            position: relative;
+            top: 40px;
+            left: 750px;
+            font-size: 25px;
+        }
+        .iskaText{
+            font-size: 40px;
+        }
+        .download-head{
+            width: 80vw;
+            display: flex;
+            /* margin-top: 30px; */
+            position: relative;
+            top: 200px;
+            margin-left: 300px;
+            justify-content: start;
+            align-items: center;
+        }
